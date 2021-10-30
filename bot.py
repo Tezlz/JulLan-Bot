@@ -1,6 +1,6 @@
 import discord
 
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.all(), command_prefix="/")
 
 
 @client.event
